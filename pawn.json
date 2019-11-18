@@ -4,6 +4,14 @@
 	"entry": "main.pwn",
 	"output": "main.amx",
 	"dependencies": [
-		"sampctl/samp-stdlib"
-	]
+		"sampctl/samp-stdlib",
+		"pawn-lang/YSI-Includes@5.x"
+	],
+	"runtime": {
+		"version": "0.3.7",
+		"mode": "server",
+		"echo": "-",
+		"rcon_password": "password",
+		"port": 7777
+	}
 }
