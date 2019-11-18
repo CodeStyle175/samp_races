@@ -1,0 +1,9 @@
+{
+	"user": "CodeStyle175",
+	"repo": "lazy",
+	"entry": "main.pwn",
+	"output": "main.amx",
+	"dependencies": [
+		"sampctl/samp-stdlib"
+	]
+}
