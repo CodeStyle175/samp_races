@@ -78,7 +78,6 @@ findEmptyTrackPointIndex(parentSid){
 }
 
 testing(){
-    print("we");
     new res1 = addTrack("init", 0);
     new res2 = addTrackPoint(res1, Float:{0.0, 0.0, 0.0});
     printf("debug_races: %d %d %s", res1, res2, getTrackTypeName(Track[res1][Type]));
